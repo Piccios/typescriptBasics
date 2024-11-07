@@ -11,20 +11,34 @@ function sum(num1: number, num2: number) {
 }
 console.log(sum(5,5))
 
-// TYPE ASSIGNMENT and INFERENCE
+// TYPE ASSIGNMENT e INFERENCE
 
 let test1: number
 let test2: string // "" , '' , ``
 let test3: boolean // true or false
 
-// 
+// definire un oggetto
 
-let user = {
-    name : "Marco",
-    surname : "Rossi"
-
+let user: {
+    name: string;
+    surname: string;
+    age: number;
+    address: {
+        street: string;
+        number: number;
+        CAP: number;
+        city: string;
+    }
 }
 
+user = {
+    name : "Marco",
+    surname : "Rossi",
+    age: 35,
+    address: {street: "Appia", number: 15, CAP: 10000, city: "Roma" }
+}
+
+console.log(user)
 
 
 
