@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es6",               // Versione JavaScript da generare
+      "module": "commonjs",           // Modulo da usare, come commonjs o es6
+      "outDir": "./index",             // Cartella per i file compilati
+      "rootDir": "./index",             // Cartella principale dei file TypeScript
+      "strict": true,                 // Abilita controlli rigorosi
+      "esModuleInterop": true         // Permette l'importazione di moduli CommonJS
+    },
+    "include": ["index/**/*"],          // Includi tutti i file .ts in src
+    "exclude": ["node_modules"]       // Escludi la cartella node_modules
+}
