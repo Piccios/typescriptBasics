@@ -6,10 +6,24 @@
 
 // FUNZIONI
 
-function sum(a: number,b: number) {
-    return a+b
+function sum(num1: number, num2: number) {
+    return num1+num2
 }
 console.log(sum(5,5))
+
+// TYPE ASSIGNMENT and INFERENCE
+
+let test1: number
+let test2: string // "" , '' , ``
+let test3: boolean // true or false
+
+// 
+
+let user = {
+    name : "Marco",
+    surname : "Rossi"
+
+}
 
 
 
